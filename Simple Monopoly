@@ -1,0 +1,45 @@
+Simple Monopoly
+
+2 players
+Board
+Dice
+Money
+
+Board has 24 spaces
+16 properties
+Cafe -5
+Work +20
+Jail -20
+Lidl -10
+
+4 parks
+
+Start with £200
+
+Properties:
+Morningside(1,2) = at spaces 14 and 15
+Bruntsfield(1,2) = at spaces 17 and 18
+Stockbridge(1,2) = at spaces 20 and 21
+The Royal Mile(1,2) = at spaces 23 and 24
+New Town(1,2) = at spaces 11 and 12
+Leith(1,2) = at spaces 2 and 3
+Trinity(1,2) = at spaces 8 and 9
+Haymarket(1,2) = at spaces 5 and 6
+
+How we did it:
+
+1. Created a class of game which had two arguments of player 1 and player 2
+2. Said that each player would have a name, amount of money and a position
+3. Created a test file and checked that a player would start with £200 and start at position 0 - first two tests.
+4. Created a test to check we can move a player, and created the corresponding move_player method.
+5. Created a test to check we can change between players and made the change_player method.
+
+
+
+Classes:
+Player(money)(name)(position)
+Game(winner)(target)
+Properties (for sale/sold)(price to buy)(charge)
+Parks(name)
+Corners(name)(value)
+
